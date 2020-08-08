@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TestCore:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TestCore_jar</output-path>
+    <root id="archive" name="TestCore.jar">
+      <element id="module-output" name="TestCore" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

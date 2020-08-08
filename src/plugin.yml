@@ -1,0 +1,26 @@
+name: TestCore
+version: 1.0
+author: Foaler
+main: cc.foaler.core.TestCore
+commands:
+  maintenance:
+  flight:
+  fly:
+  clearinventory:
+  clear:
+  ci:
+  rename:
+  vanish:
+  v:
+  teamspeak:
+  ts:
+  store:
+  discord:
+  ds:
+  warp:
+  createwarp:
+  addwarp:
+  removewarp:
+  delwarp:
+  copyinventory:
+  copyinv:

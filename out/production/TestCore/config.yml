@@ -1,0 +1,11 @@
+Settings:
+  media:
+    teamspeak:
+      enabled: false
+      message: "ts.testcore.com"
+    discord:
+      enabled: true
+      message: "https://discord.gg/s6hy4Yp"
+    store:
+      enabled: false
+      message: "store.testcore.com"
