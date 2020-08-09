@@ -1,5 +1,6 @@
 package cc.foaler.core.utils;
 
+import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
@@ -30,5 +31,9 @@ public class Utils {
         for (int i = start; i < end; i++) {
             inventory.setItem(i, item);
         }
+    }
+
+    public static int getPing(Player player) {
+        return ((CraftPlayer) player).getHandle().ping;
     }
 }

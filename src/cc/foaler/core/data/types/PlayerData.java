@@ -2,7 +2,6 @@ package cc.foaler.core.data.types;
 
 import cc.foaler.core.data.objects.ClassType;
 import org.bukkit.Bukkit;
-import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
 import java.util.UUID;
@@ -43,7 +42,6 @@ public class PlayerData {
             }
 
             player.spigot().setCollidesWithEntities(true);
-            
         }
     }
 

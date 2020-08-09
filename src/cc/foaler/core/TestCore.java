@@ -50,6 +50,9 @@ public class TestCore extends JavaPlugin {
         Objects.requireNonNull(getCommand("delwarp")).setExecutor(new RemoveWarpCommand());
         Objects.requireNonNull(getCommand("copyinventory")).setExecutor(new CopyInventoryCommand());
         Objects.requireNonNull(getCommand("copyinv")).setExecutor(new CopyInventoryCommand());
+        Objects.requireNonNull(getCommand("spawn")).setExecutor(new SpawnCommand());
+        Objects.requireNonNull(getCommand("setspawn")).setExecutor(new SetSpawnCommand());
+        Objects.requireNonNull(getCommand("ping")).setExecutor(new PingCommand());
     }
 
     @Override

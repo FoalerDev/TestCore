@@ -1,5 +1,5 @@
 name: TestCore
-version: 1.0
+version: 1.0.0
 author: Foaler
 main: cc.foaler.core.TestCore
 commands:
@@ -24,3 +24,6 @@ commands:
   delwarp:
   copyinventory:
   copyinv:
+  spawn:
+  setspawn:
+  ping:
